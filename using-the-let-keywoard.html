@@ -1,0 +1,21 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ECMA Script</title>
+  </head>
+  <body>
+    <h1>Let</h1>
+    <script>
+      var topic = "JavaScript Script";
+
+      if (topic) {
+        //var topic = "ECMA Script"; // this will change the gloval variable
+        let topic = "ECMA Script"; // let is block scoped
+        console.log("block", topic);
+      }
+      console.log("global", topic);
+    </script>
+  </body>
+</html>
